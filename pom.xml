@@ -55,15 +55,6 @@
 		</dependency>
 
 	</dependencies>
-	<!-- Deploy to Nexus -->
-	<distributionManagement>
-		<repository>
-		<id>maven-central</id>
-		<name>maven-central</name>
-		<url>http://localhost:8081/repository/maven-central/</url>
-		</repository>
-	</distributionManagement>
-
 
 	<build>
 		<plugins>
