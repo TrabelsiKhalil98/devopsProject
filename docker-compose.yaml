@@ -11,6 +11,7 @@ services:
       MYSQL_DATABASE: achatdb
       MYSQL_USER: root
       MYSQL_PASSWORD: ""
+      MYSQL_ROOT_PASSWORD : ""
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
     volumes:
       - db:/data/db
