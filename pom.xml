@@ -58,7 +58,7 @@
 	<!-- Deploy to Nexus -->
 	<distributionManagement>
 		<repository>
-		<id>maven-central</id>
+		<id>maven-central7</id>
 		<name>maven-central</name>
 		<url>http://localhost:8081/repository/maven-central/</url>
 		</repository>
