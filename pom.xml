@@ -60,7 +60,7 @@
 		<repository>
 		<id>maven-central7</id>
 		<name>maven-central</name>
-		<url>http://localhost:8081/repository/maven-central/</url>
+		<url>http://localhost:8081/repository/maven-central7/</url>
 		</repository>
 	</distributionManagement>
 
