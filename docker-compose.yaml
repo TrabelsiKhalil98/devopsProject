@@ -19,7 +19,7 @@ services:
     build: .
     restart: always
     ports:
-      - 8090:8090
+      - 8089:8089
     networks:
       - springapimysql-net
     environment:
