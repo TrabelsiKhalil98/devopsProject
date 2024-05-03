@@ -31,7 +31,7 @@ services:
     volumes:
       - .:/achat-1.0
 
-  achat-front:
+  front_service:
     image: "achat-front:latest"  
     restart: always
     ports:
