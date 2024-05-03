@@ -16,7 +16,7 @@ services:
       - db:/data/db
 
   api_service:
-    image: "achat-app:latest"  
+    image: "trabelsikhalil/achat-app:latest"  
     restart: always
     ports:
       - 8089:8089
@@ -32,7 +32,7 @@ services:
       - .:/achat-1.0
 
   front_service:
-    image: "achat-front:latest"  
+    image: "trabelsikhalil/achat-front:latest"  
     restart: always
     ports:
       - 4200:4200
