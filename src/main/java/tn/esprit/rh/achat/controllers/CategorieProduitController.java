@@ -16,7 +16,7 @@ public class CategorieProduitController {
 	@Autowired
 	ICategorieProduitService categorieProduitService;
 	
-	// http://localhost:8089/SpringMVC/categorieProduit/retrieve-all-categorieProduit
+	// http://192.168.50.4:8089/SpringMVC/categorieProduit/retrieve-all-categorieProduit
 	@GetMapping("/retrieve-all-categorieProduit")
 	@ResponseBody
 	public List<CategorieProduit> getCategorieProduit() {
